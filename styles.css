@@ -23,7 +23,7 @@ html {
 
 .clues-container {
     display: grid;
-    grid-template-columns: minmax(0, 600px);
+    grid-template-columns: 600px;
     justify-content: center;
 }
 
@@ -44,3 +44,10 @@ html {
     margin-top: 8px;
     font-size: 18px;
 }
+
+@media screen and (max-width: 800px) {
+    .clues-container {
+        grid-template-columns: auto;
+    }
+  }
+  
