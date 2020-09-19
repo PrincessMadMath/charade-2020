@@ -23,7 +23,7 @@ html {
 
 .clues-container {
     display: grid;
-    grid-template-columns: 500px;
+    grid-template-columns: minmax(0, 600px);
     justify-content: center;
 }
 
