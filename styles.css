@@ -1,3 +1,46 @@
+html { 
+    background: url("https://img.wallpapersafari.com/desktop/1920/1080/81/71/DRc4Wb.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: #f5f5f5;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    color: #f5f5f5;
+    font-style: italic;
+    font-size: 18px;
+
+}
+
+.clues-container {
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+}
+
 .clue {
     padding: 10px;
+    margin: 10px;
+    border: 2px solid  	#BA55D3;
+    background-color: #ccffee;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text {
+    font-style: italic;
+    margin-top: 8px;
+    font-size: 18px;
 }
